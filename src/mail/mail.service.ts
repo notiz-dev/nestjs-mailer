@@ -12,7 +12,7 @@ export class MailService {
     await this.mailerService.sendMail({
       to: user.email,
       // from: '"Support Team" <support@example.com>', // override default from
-      subject: 'Welcome to App. Confirm your Email',
+      subject: 'Welcome to Nice App! Confirm your Email',
       template: 'confirmation', // `.hbs` extension is appended automatically
       context: {
         name: user.name,
