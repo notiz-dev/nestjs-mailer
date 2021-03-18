@@ -1,5 +1,7 @@
 # Nest Mailer
 
+Read the post [Send Emails with NestJS ](https://notiz.dev/blog/send-emails-with-nestjs).
+
 Get started
 
 ```bash
