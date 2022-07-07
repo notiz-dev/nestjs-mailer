@@ -13,7 +13,8 @@ module.exports = {
   build: {
     templates: {
       destination: {
-        path: 'build_production',
+        path: '../src/mail/templates',
+        extension: 'hbs'
       },
     },
   },

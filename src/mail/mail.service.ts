@@ -13,7 +13,7 @@ export class MailService {
       to: user.email,
       // from: '"Support Team" <support@example.com>', // override default from
       subject: 'Welcome to Nice App! Confirm your Email',
-      template: './confirmation', // `.hbs` extension is appended automatically
+      template: './transactional', // either change to ./transactional or rename transactional.html to confirmation.html
       context: {
         name: user.name,
         url,
